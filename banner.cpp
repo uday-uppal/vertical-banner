@@ -83,10 +83,113 @@ void d(){
 	}
 	
 }
+void e(){
+	for(int i=1;i<11;i++){
+		if(i==1){
+			cout<<"$$$$$$$$$$";
+		}
+			if(i==5){
+			cout<<"$$$$$$$$$$";
+		}
+			if(i==10){
+			cout<<"$$$$$$$$$$";
+		}
+		cout<<"$";
+			cout<<"\n";
 
+	}
+	
+}
+void f(){
+	for(int i=1;i<10;i++){
+		if(i==1){
+			cout<<"$$$$$$$$$$";
+		}
+			if(i==5){
+			cout<<"$$$$$$";
+		}
+			
+		cout<<"$";
+			cout<<"\n";
+
+	}
+	
+}
+void h(){
+	for(int i=1;i<10;i++){
+	
+		if(i!=1&&i!=9)
+			cout<<"  ";
+			else
+			cout<<" $";
+		cout<<"$";
+			if(i==5){
+			cout<<"$$$$$$$$$$";
+		}
+		if(i!=5)
+		cout<<"          ";
+		cout<<"$";
+		if(i==1||i==9){
+			cout<<"$";
+		}
+			cout<<"\n";
+
+	}
+	
+}
+void i(){
+	for(int i=1;i<10;i++){
+		if(i==1){
+			cout<<"$$$$$$$$$$$$";
+		}
+		
+				if(i!=1&&i!=9)
+		cout<<"     $$";
+			if(i==9){
+			cout<<"$$$$$$$$$$$$";
+		}
+			cout<<"\n";
+
+	}
+	
+	
+}
+void j(){
+	for(int i=1;i<10;i++){
+		if(i==1){
+			cout<<"$$$$$$$$$$";
+		}
+		if(i!=1&&i<6){
+
+		cout<<"    ";
+        cout<<"$";
+		}	
+        else{
+					
+	  for(int j=1;j<i-5;j++){
+				cout<<" ";
+			}
+
+		cout<<"$";
+		}
+			cout<<"\n";
+
+	}
+	
+}
 int main(){
 	a();
 	cout<<"\n";
 d();
+	cout<<"\n";
+c();
+	cout<<"\n";
+e();
+	cout<<"\n";
+f();
+	cout<<"\n";
+h();
+	cout<<"\n";
+i();
 	return 0;
 }
